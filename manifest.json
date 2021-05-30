@@ -1,15 +1,16 @@
 {
   "manifest_version": 2,
-  "name": "weblio-ejje",
-  "description": " Weblio英和辞典・和英辞典（ウェブリオ公認）",
-  "version": "1.0.1",
-  "author": "shimataro",
+  "name": "Weblio ターボ",
+  "description": " Weblio ターボ (英和辞典・和英辞典)",
+  "version": "1.0.0",
+  "author": "shimataro (Modded by Misoni)",
   "chrome_settings_overrides": {
     "search_provider": {
-      "name": "Weblio英和辞典・和英辞典",
-      "search_url": "https://ejje.weblio.jp/content/{searchTerms}",
+      "name": "Weblio ターボ",
+      "search_url": "https://ejje.weblio.jp/turbo/{searchTerms}",
       "is_default": false,
-      "favicon_url": "https://weblio.hs.llnwd.net/e7/img/favicon/ejje.png"
+      "favicon_url": "https://weblio.hs.llnwd.net/e7/img/favicon/ejje.png",
+      "keyword": "weblio"
     }
   }
 }
